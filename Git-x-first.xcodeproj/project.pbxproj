@@ -19,6 +19,7 @@
 		964F03B316BAC4290088D88C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964F03B116BAC4290088D88C /* MainStoryboard_iPhone.storyboard */; };
 		964F03B616BAC4290088D88C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964F03B416BAC4290088D88C /* MainStoryboard_iPad.storyboard */; };
 		964F03B916BAC4290088D88C /* gitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F03B816BAC4290088D88C /* gitViewController.m */; };
+		964F03C116BAC5530088D88C /* gitChaChaChaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F03C016BAC5530088D88C /* gitChaChaChaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		964F03B516BAC4290088D88C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		964F03B716BAC4290088D88C /* gitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gitViewController.h; sourceTree = "<group>"; };
 		964F03B816BAC4290088D88C /* gitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitViewController.m; sourceTree = "<group>"; };
+		964F03BF16BAC5530088D88C /* gitChaChaChaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gitChaChaChaViewController.h; path = ../gitChaChaChaViewController.h; sourceTree = "<group>"; };
+		964F03C016BAC5530088D88C /* gitChaChaChaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gitChaChaChaViewController.m; path = ../gitChaChaChaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				964F03B416BAC4290088D88C /* MainStoryboard_iPad.storyboard */,
 				964F03B716BAC4290088D88C /* gitViewController.h */,
 				964F03B816BAC4290088D88C /* gitViewController.m */,
+				964F03BF16BAC5530088D88C /* gitChaChaChaViewController.h */,
+				964F03C016BAC5530088D88C /* gitChaChaChaViewController.m */,
 				964F03A016BAC4290088D88C /* Supporting Files */,
 			);
 			path = "Git-x-first";
@@ -181,6 +186,7 @@
 				964F03A616BAC4290088D88C /* main.m in Sources */,
 				964F03AA16BAC4290088D88C /* gitAppDelegate.m in Sources */,
 				964F03B916BAC4290088D88C /* gitViewController.m in Sources */,
+				964F03C116BAC5530088D88C /* gitChaChaChaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
